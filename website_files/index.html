@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <style>
+        /* Same CSS as before for general styling */
+        body,
+        h1,
+        p {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+
+        header nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+        }
+
+        .intro {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 40px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .intro-text {
+            max-width: 60%;
+            text-align: left;
+            font-size: 24px;
+            color: #337ab7;
+        }
+
+        .intro img {
+            max-width: 35%;
+            border-radius: 5px;
+        }
+
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px 0;
+        }
+
+        .project-card {
+            width: calc(33.33% - 20px);
+            padding: 40px;
+            background-color: #f0f0f0;
+            border: 2px dashed #ccc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            color: #999;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .project-card:hover {
+            background-color: #e0e0e0;
+            border-color: #bbb;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <div>Your Name SPECIALIST MAN </div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="profile.html">Profile</a>
+                <a href="socials.html">Socials</a>
+                <a href="contact.html">Contact</a>
+                <a href="terms.html">Terms</a>
+            </nav>
+        </header>
+
+        <div class="intro">
+            <div class="intro-text">
+                <h1>Hi, I'm [Name], a [Role] from [Location].</h1>
+            </div>
+            <img src="https://via.placeholder.com/400" alt="Profile Picture">
+        </div>
+
+        <div class="projects">
+            <div class="project-card">+</div>
+            <div class="project-card">+</div>
+            <div class="project-card">+</div>
+        </div>
+    </div>
+
+</body>
+
+</html>
